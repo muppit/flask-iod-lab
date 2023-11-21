@@ -31,4 +31,6 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    host = os.getenv('FLASK_HOST', '127.0.0.1')
+    port = os.getenv('FLASK_PORT', '5001')
+    app.run(host=host, port=int(port), debug=True)
