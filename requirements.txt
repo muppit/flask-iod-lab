@@ -1,4 +1,4 @@
-python -m pip install --upgrade pip
+pip install --upgrade pip
 flask>=1.1.2
 gunicorn>=20.0.4
 Jinja2>=2.11.2
