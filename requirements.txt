@@ -7,4 +7,5 @@ pandas>=1.1.3
 regex>=2.5.86
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz#egg=en_core_web_sm==2.3.1
 scikit-learn==0.23.2
+scipy>=1.11.0
 joblib>=0.17.0
